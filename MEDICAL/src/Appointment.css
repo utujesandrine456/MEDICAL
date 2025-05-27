@@ -1,0 +1,160 @@
+.contact-forms{
+    position: relative;
+    background-color: #1F2B6C;
+    width: 405px;
+    border-radius: 5px ;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: right;
+    left: -500px;
+    z-index: 2;
+    
+}
+.contact-forms input{
+    border-radius: 5px 0 0 0 ;
+    padding: 10px 20px;
+    background-color:#1F2B6C ;
+    border:   1px solid   white;
+    border-top: none;
+    border-left: none;
+    
+}
+.contact-forms input::placeholder{
+    color:white;
+    font-family: 'Work sans', sans-serif;
+    
+}
+.contact-forms i{
+    position: relative;
+    top:-75px;
+    margin-left:180px ;
+    margin-top: 15px;
+    color: white;
+    
+}
+.contact-forms #right{
+    float: right;
+    
+}
+.contact-forms #right, form #right-one{
+    border-radius:  0 5px  0 0 ;
+    border-right: none;
+}
+.contact-forms label{
+    position: relative;
+    color: white;
+    top:-50px;
+    left: 30px;
+    font-family: 'Work sans', sans-serif;
+    
+}
+.contact-forms input[type='submit']{
+    background-color: #BFD2F8;
+    border: none;
+    width:405px;
+    height:40px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 60px;
+    font-family: 'Work sans', sans-serif;
+}
+
+.appointment-container{
+    overflow-x: hidden;
+}
+
+.appointment-container .appointment-header h1, .appointment-time h1{
+    color:#1F2B6C;
+    font-family: 'Yeseva One',sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 60px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+.appointment-container .appointment-header p, .appointment-time p{
+    color:black;
+    font-family: 'Work sans',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    position: relative;
+    top: 60px;
+    left: 120px;
+}
+
+.appointment-time{
+    width: 400px;
+    height: 500px;
+    background-color: #1F2B6C;
+    position: relative;
+    left: 600px;
+    top: -115px;
+    border-radius: 5px;
+}
+.appointment-time p {
+    color: white;
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+    white-space: nowrap; 
+    line-height: 1.8;
+}
+
+.appointment-time p span {
+    width: 80px;
+    text-align: left; 
+}
+
+.appointment-time p hr {
+    width: 15px;
+    height: 2px; 
+    background-color:#BFD2F8; 
+    border: none;
+    margin: 0;
+}
+.appointment-time h1{
+    color: #BFD2F8;
+    font-size: 35px;
+    position: relative;
+    left: 80px;
+}
+.appointment-time h3{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position: relative;
+    top: -70px;
+    left: 110px;
+    font-weight: 400;
+}
+.appointment-time h4{
+    color:#BFD2F8;
+    font-size: 14px;
+    position: relative;
+    left: 130px;
+    top:-95px;
+    font-weight: 500;
+    margin-left: -20px;
+    font-family: 'Work sans', sans-serif;
+}
+.appointment-time i{
+    color:#1F2B6C;
+    position: relative;
+    left:70px;
+    top: -80px;
+    font-size: 30px;
+    color:#BFD2F8;
+}
+
+.appointment-container .contact-image{
+    margin-top: -50px;
+}
+.appointment-container span hr{
+    width: 300px;
+    height: 2px; 
+    background-color:#BFD2F8; 
+    border: none;
+    margin: 90px auto;
+}
