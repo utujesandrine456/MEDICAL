@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+.home-container{
+    font-family: 'Work sans', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container .home-img {
+    position: relative;
+    height: 700px;
+    top: 70px;
+    margin-left: -178px;
+}
+.home-img h3,.home-img h1{
+    font-size: 22px;
+    color: #159EEC;
+    position: relative;
+    top:-360px;
+    margin-left:390px;
+}
+.home-img h1{
+    color:#1F2B6C;
+    font-weight: 500;
+    font-family: 'Yeseva One', sans-serif;
+}
+.home-img button{
+    padding:13px 30px;
+    background-color: #BFD2F8;
+    border: none;
+    border-radius: 25px;
+    color:#1F2B6C;
+    font-weight: 600;
+    position: relative;
+    top: -300px;
+    margin-left: 390px;
+    font-size: 19px;
+}
+.cards{
+    display: flex;
+    position: relative;
+    margin-left: 130px;
+    top: -130px;
+}
+.card1, .card2, .card3{
+    width: 316px;
+    height: 100px;
+    background-color:#1F2B6C ;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 35px 0 0 25px;
+    font-weight: 500;
+}
+
+.card2{
+    background-color:#BFD2F8;
+    color:#1F2B6C;
+}
+.card3{
+    background-color:#159EEC ;
+}
+.card1 i, .card2 i , .card3 i{
+    position: relative;
+    left: 230px;
+    top: -40px;
+    font-size: 50px;
+}
+.small-container h3, .blackdoctors h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #159EEC;
+    position: relative;
+    text-align: center;
+    top: -60px;
+}
+.small-container h1, .blackdoctors h1{
+    color:#1F2B6C;
+    position: relative;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+    top: -60px;
+    text-align: center;
+}
+.small-container p{
+ position: relative;
+ color:#212124;
+ font-family: 'Work sans';
+ font-size: 14px;
+ text-align: center;
+ top:-50px;
+}
+.small-container a{
+    text-decoration: none;
+    color: #159EEC;
+    font-size: 20px;
+    margin-left:550px;
+    margin-bottom: 50px;
+}
+.small-container i{
+    color: #1F2B6C;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.form-icon{
+    border-radius: 5px;
+    border: 1px solid #b8bbca;
+    width: 150px;
+    margin-top: -450px;
+    margin-left: 110px;
+}
+.blackdoctors h4{
+    margin-left: 280px;
+    margin-top: 100px;
+    font-size: 26px;
+}
+
+.blackdoctors ul{
+    list-style: disc 2px blue;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.blackdoctors ul .right{
+    position: relative;
+    top: -95px;
+    margin-left: 300px;
+    padding: 7px;
+}
+
+.blackdoctors ul .left{
+    margin-left: 50px;
+    padding: 7px;
+}
+
+.blackdoctors p{
+    position: relative;
+    color:#212124;
+    font-family: 'Work sans';
+    font-size: 14px;
+    margin-left: 280px;
+    top: -90px;
+    margin-top: 20px;
+}
+
+.form-icon h5{
+    font-weight: 500;
+    padding: 57px 20px 20px 0;
+    text-align: center;
+}
+
+
+
+.form-icon .heart, .form-icon .view{
+    top:15px;
+    color:#BFD2F8;
+    background-color: #1F2B6C;
+}
+
+.form-icon .view{
+    padding: 10px 25px;
+    border-radius: 0 0 4px 4px;
+}
+.form-icon i{
+    position: relative;
+    color: #BFD2F8;
+    font-size: 30px;
+    top: 50px;
+    left:55px;
+}
+.form-icon .fa-dna, .form-icon .fa-droplet, .form-icon .fa-check-to-slot{
+    color:#159EEC;
+}
+.form-icon .fa-check-to-slot {
+    position: relative;
+    top:20px;
+}
+.form-icon .fa-dna, .form-icon .fa-droplet{
+    position: relative;
+    top: 30px;
+}
+.form-icon .blood, .form-icon .dna{
+    padding: 35px 0 20px 0; 
+}
+.form-icon .checkup{
+    color: #212124;
+    position: relative;
+    top:20px;
+    bottom:10px;
+    padding: 5px 0 10px 0;
+    margin:0;
+}
+.blackdoctors h1, .blackdoctors h3{
+    position: relative;
+    top:50px;
+    text-align: center;
+}
+.blackdoctors h1{
+    margin-bottom: 100px;
+}
+.blackdoctors .patients img{
+    position: relative;
+    margin-right:90px;
+    top:-450px;
+    display:block;
+    float: right;
+    clear: right;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.home-container .bg-blackdoctors img{
+    display:block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-container  .home-news h3{
+    position: absolute;
+    margin-left: 0 ;
+    margin-top: 40px;
+}
+
+.home-neurology{
+    margin-left: -160px;
+}
+
