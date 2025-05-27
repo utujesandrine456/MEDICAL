@@ -1,0 +1,71 @@
+.contact-cards-container {
+    display: flex;  
+    flex-wrap: nowrap;  
+    gap: 20px;  
+    justify-content: center;  
+    overflow-x: auto;  
+    padding: 20px;
+    font-family: 'Work sans', sans-serif;
+    margin: 70px 0;
+}
+
+.contact-card {
+    background-color: #BFD2F8;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    height: 233px;
+    width: 233px;  
+    transition: transform 0.3s ease;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-start; 
+    padding: 20px; 
+    text-align: left; 
+}
+
+.contact-card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.contact-card-icon {
+    position: relative;
+    top:40px;
+    font-size: 40px;  
+    color:#1F2B6C;
+    align-self: flex-start; 
+}
+
+.contact-card h3 {
+    position: relative;
+    font-size: 1.2em;  
+    color:#1F2B6C;
+    top: 40px; 
+    align-self: flex-start; 
+}
+
+.contact-card p {
+    font-size: 1em;  
+    color:#1F2B6C;  
+    margin: 5px 0;  
+    position: relative;
+    top:50px;
+    align-self: flex-start; 
+}
+.headers{
+    margin-top: -30px;
+}
+.contact-cards-container .headers h3{
+    position: absolute;
+    font-size: 20px;
+    color:#159EEC;
+    margin-bottom: 10px;
+    font-family: 'Work sans', sans-serif;
+}
+.contact-cards-container  .headers h1{
+    position: absolute;
+    font-size: 30px;
+    color: #1F2B6C;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+}
