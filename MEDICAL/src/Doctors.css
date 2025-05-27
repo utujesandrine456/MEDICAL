@@ -1,0 +1,56 @@
+.doctors-container{
+    margin-left: 0;
+    margin-top: 250px;
+}
+.second-container{
+    margin-top: -150px;
+}
+.slider{
+    position: relative;
+    top: -450px;
+    margin-top: 880px;
+    
+}
+.slider::before{
+    content: ''; 
+    position: absolute;
+    top: -359px;
+    left: 0;
+    width: 100%;
+    height: 372px;
+    padding-bottom: 18px;
+    background-color: rgba(31, 43, 108, 0.6); 
+    pointer-events: none; 
+}
+
+.slider h3{
+    position: relative;
+    top: -120px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin: 0 0 0 -120px;
+    font-family: 'Work sans';
+}
+.slider svg{
+    position: absolute;
+    margin: -85px 0 0 280px;
+}
+
+.about-news{
+    margin-top: -500px;
+    margin-bottom: 50px;
+}
+.about-news .news-card h3{
+    position: absolute;
+    color:#212124;
+    top:0;
+    left: 430px;
+}
+
+.about-news .icons{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
