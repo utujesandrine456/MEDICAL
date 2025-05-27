@@ -1,0 +1,125 @@
+.contact-form{
+    position: relative;
+    background-color: #1F2B6C;
+    width: 405px;
+    border-radius: 5px ;
+    top: 700px;
+    float: right;
+    left: -500px;
+    z-index: 2;
+    
+}
+.contact-form input{
+    border-radius: 5px 0 0 0 ;
+    padding: 10px 20px;
+    background-color:#1F2B6C ;
+    border:   1px solid   white;
+    border-top: none;
+    border-left: none;
+    
+}
+.contact-form input::placeholder{
+    color:white;
+    font-family: 'Work sans', sans-serif;
+    
+}
+.contact-form i{
+    position: relative;
+    top:-75px;
+    margin-left:180px ;
+    margin-top: 15px;
+    color: white;
+    
+}
+.contact-form #right{
+    float: right;
+    
+}
+.contact-form #right, form #right-one{
+    border-radius:  0 5px  0 0 ;
+    border-right: none;
+}
+.contact-form label{
+    position: relative;
+    color: white;
+    top:-50px;
+    left: 30px;
+    font-family: 'Work sans', sans-serif;
+    
+}
+.contact-form input[type='submit']{
+    background-color: #BFD2F8;
+    border: none;
+    width:405px;
+    height:40px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 60px;
+    font-family: 'Work sans', sans-serif;
+}
+
+.contact-about-forms .about-contact .headers{
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 110px;
+    
+}
+.contact-about-forms .about-contact .headers h3{
+    font-family: 'Work sans', sans-serif;
+    font-size: 16px;
+    
+}
+
+.contact-about-forms .about-contact .contact-cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: right;
+    position: relative;
+    left: -220px;
+    gap: 10px;
+    
+}
+.contact-about-forms .about-contact .contact-card{
+    width:216px;
+    height: 216px;
+    
+}
+.contact-about-forms .about-contact .contact-card p{
+    font-size: 14px;
+    
+}
+.contacts-container .contact-image, .appointment-container .contact-image{
+    display: block;  
+    margin: 140px auto 0;  
+    
+}
+
+.contact-footer{
+    position: relative;
+    margin-top: 1100px;
+}
+.main-about-contact{
+    position: absolute;
+    margin-top: 1000px;
+    top: 900px;
+    left: 100px;
+}
+.main-about-contact .about-news .headers{
+    margin-left: -150px;
+}
+
+.main-about-contact .about-news .news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 100%;
+}
+
+.main-about-contact .about-news .news-card {
+    display: flex;
+    align-items: center; 
+    position: relative;
+    
+}
+
+
