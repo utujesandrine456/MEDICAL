@@ -1,0 +1,97 @@
+
+.main{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    background-color: #1F2B6C;
+    margin-bottom: 0px;
+    font-family: 'Work sans';
+}
+.main h1{
+    position: relative;
+    left: -30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #BFD2F8;
+    font-weight: 500;
+    font-family: 'Yeseva One', sans-serif;
+}
+
+.main h3{
+    position: relative;
+    left: 50px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 50px;
+    padding: 0;
+    
+}
+.main .list-of-links p{
+    position: relative;
+    left: 300px;
+    top: 60px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.3;
+    
+}
+.main .bottom{
+    position: relative;
+    top:0;
+    margin-top: 150px;
+    
+}
+.main hr {
+    width: 0.5px; 
+    height: 800px; 
+    background-color: white; 
+    border: none; 
+    transform: rotate(90deg); 
+    position: relative;
+    top: -70px;
+    left: -390px;
+    
+}
+
+
+.main .list-of-links .left{
+    position: relative;
+    left: 200px;
+    
+}
+.main p{
+    position: relative;
+    top: 120px;
+    margin-left: -200px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.main h6{
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 370px;
+    margin-left: -790px;
+    color: white;
+    
+}
+.main .list-of-links button{
+    padding: 14px 14px;
+    background-color: #BFD2F8;
+    border: none;
+    font-family: 'Work sans';
+    color:#1F2B6C;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 280px;
+    top: 100px;
+    
+}
+
+.main .icons{
+    margin-left: 200px;
+}
+
