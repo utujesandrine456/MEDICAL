@@ -1,0 +1,78 @@
+.Man-doctor img{
+    position: relative;
+    width:100%;
+    margin-top:50px;
+    opacity: 0.5;
+    z-index:1;
+}
+.Man-doctor p{
+   position: relative;
+   top: -300px;
+   margin-left: 150px;
+   color:#212124;
+   z-index: 2;
+}
+.Man-doctor h3{
+    position: relative;
+    top:-290px;
+    left:-320px;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    z-index: 2;
+}
+.Man-doctor {
+    position: relative; /* Ensures child elements can be absolutely positioned */
+    width: 100%;
+}
+
+form{
+    position: relative;
+    background-color: #1F2B6C;
+    width: 405px;
+    border-radius: 5px ;
+    margin-top: -500px;
+    float: right;
+    margin-right: 200px;
+    z-index: 2;
+}
+form input{
+    border-radius: 5px 0 0 0 ;
+    padding: 10px 20px;
+    background-color:#1F2B6C ;
+    border:   1px solid   white;
+    border-top: none;
+    border-left: none;
+}
+form input::placeholder{
+    color:white;
+    font-family: 'Work sans', sans-serif;
+}
+form i{
+    position: relative;
+    top:-75px;
+    margin-left:180px ;
+    margin-top: 15px;
+    color: white
+}
+form #right{
+    float: right;
+}
+form #right, form #right-one{
+    border-radius:  0 5px  0 0 ;
+    border-right: none;
+}
+form label{
+    position: relative;
+    color: white;
+    top:-50px;
+    left: 30px;
+}
+form input[type='submit']{
+    background-color: #BFD2F8;
+    border: none;
+    width:405px;
+    height:40px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 60px;
+}
