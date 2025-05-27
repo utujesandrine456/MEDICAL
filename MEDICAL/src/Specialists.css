@@ -1,0 +1,45 @@
+.specialists {
+    background-color: white;
+}
+  
+.all-specialists {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Restricts width for proper alignment */
+    margin: 150px 0 0 0;
+}
+
+.specialist {
+    position: relative;
+    border: 0.1px solid #C4C4C4;
+    flex: 0 0 calc(25% - 20px); /* Ensures four items per row */
+    text-align: center;
+    height:160px;
+    left: 250px;
+}
+
+.specialist h5{
+    text-align: center;
+    position: relative;
+    top:10px;
+    color: #212124;
+    font-size: 16px;
+    font-weight: 500;
+}
+.specialists h3 {
+    position: relative;
+    text-align: center;
+    margin-left: 400px;
+    top:100px;
+}
+
+.specialists h1 {
+    position: relative;
+    margin-left: 400px;
+    font-size: 2rem;
+    text-align: center;
+    top: 100px;
+    margin-bottom:50px;
+}
+
+  
