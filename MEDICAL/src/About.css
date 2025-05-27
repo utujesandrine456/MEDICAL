@@ -1,0 +1,223 @@
+.bg-blackdoctors .bg-image, .bg-blackdoctors img{
+    display:block;
+    width: 100%;
+    position: relative;
+    top:65px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.bg-blackdoctors h1, .bg-blackdoctors h4{
+    color:#1F2B6C;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: 'yeseva One', sans-serif;
+    font-weight: 300;
+    
+}
+.bg-blackdoctors h4{
+    margin-top: -200px;
+    font-size: 15px;
+    font-family: 'Work sans', sans-serif;
+    font-weight: 400;
+    
+}
+.middle-care {
+    flex-direction: column;
+}
+
+.middle-care ul{
+    list-style: disc 2px #159EEC;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.middle-care  ul .right{
+    position: relative;
+    top: -514px;
+    margin-left: 500px;
+    padding: 7px;
+    font-family: 'Work sans', sans-serif;
+    font-size: 18px;
+}
+
+.middle-care  ul .left{
+    position: relative;
+    top: -410px;
+    padding: 7px;
+    margin-left: 250px;
+    font-family: 'Work sans', sans-serif;
+    font-size: 18px;
+}
+
+.middle-care  p{
+    position: relative;
+    color:#212124;
+    font-family: 'Work sans';
+    font-size: 14px;
+    margin-left: 470px;
+    top: -520px;
+    margin-top: 20px;
+}
+
+.middle-care img{
+    margin: 150px  0 0 150px;
+    width: 288px;
+    height: 409px;
+}
+.middle-care h3, .middle-care h1{
+    position: relative;
+    margin-left: 480px;
+    top: -400px;
+    color: #1F2B6C;
+    font-size: 40px;
+    font-family: 'yeseva One', sans-serif;
+    font-weight: 300;
+}
+.middle-care h3{
+    color: #159EEC;
+    font-size: 16px;
+    font-family: 'Work sans', sans-serif;
+    font-weight: 600;
+}
+
+.slider{
+    position: absolute;
+    display: inline-block;
+}
+.slider-container{
+    position: relative;
+    margin-top: -450px;
+}
+
+.slider .testimonial_bac{
+    width: 100%;
+    margin: -500px 0  0  0;
+}
+
+.slider-container .slider::before{
+    content: ''; 
+    position: absolute;
+    top: -377px;
+    left: 0;
+    width: 100%;
+    padding-bottom: 38px;
+    background-color: rgba(31, 43, 108, 0.6); 
+    pointer-events: none; 
+}
+.slider h4{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin: -300px 0 0 300px;
+    text-align: center;
+    font-family: 'Work sans';
+    font-weight: 400;
+    line-height: 1.8; 
+}
+
+.slider hr{
+    position: absolute;
+    margin: -150px 0 0 450px;
+    width: 180px;
+}
+.slider h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin: 280px 0 0 -120px;
+}
+.slider svg{
+    position: absolute;
+    margin: -365px 0 0 280px;
+}
+.about-neurology{
+    display: flex;
+    flex-direction: column;
+    margin-top: -450px;
+    margin-left: -200px;
+}
+.about-news{
+    overflow-x: hidden;
+}
+.about-news h3{
+    position: relative;
+    font-size: 20px;
+    color:#159EEC;
+    margin: 50px 0 10px 0;
+    top: 40px;
+    left: 400px;
+    font-family: 'Work sans', sans-serif;
+  }
+  .about-news h1{
+    position: relative;
+    font-size: 30px;
+    color: #1F2B6C;
+    top: 40px;
+    left: 540px;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+  }
+
+  .about-footer h1{
+    margin-top: 100px;
+  }
+  .about-footer .main h3{
+    position: relative;
+    left: 50px;
+    margin-top: 100px;
+    color: white;
+    margin-left: 50px;
+    padding: 0;
+}
+.about-footer  .list-of-links p{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.8;
+    
+}
+.about-footer  .list-of-links button{
+    padding: 14px 14px;
+    background-color: #BFD2F8;
+    border: none;
+    font-family: 'Work sans';
+    color:#1F2B6C;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 250px;
+    top: 60px;
+    
+}
+.about-contact{
+    margin-bottom: 50px;
+}
+.about-contact .headers h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #159EEC;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    margin-top: 30px;
+}
+
+.about-contact .headers h1{
+    color:#1F2B6C;
+    position: relative;
+    font-family: 'Yeseva One', sans-serif;
+    font-weight: 500;
+    top: 20px;
+    text-align: center;
+    
+}
+
+.main-about-news{
+    margin-top: 500px;
+}
