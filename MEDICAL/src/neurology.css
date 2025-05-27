@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+.doctors-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  flex-wrap: nowrap; 
+  width: 100%;
+  font-family: 'Work sans', sans-serif;
+  margin-top: -100px;
+}
+.doctors-container .headers h3{
+  position: relative;
+  font-size: 20px;
+  color:#159EEC;
+  margin-bottom: 10px;
+  top: -120px;
+  left: 380px;
+  margin-top: -50px;
+  font-family: 'Work sans', sans-serif;
+}
+.doctors-container  .headers h1{
+  position: relative;
+  font-size: 30px;
+  color: #1F2B6C;
+  top: -120px;
+  left: 380px;
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: 500;
+}
+.doctor-card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  width: 200px; 
+  margin-bottom: 40px;
+  margin-top: -100px;
+}
+
+.doctor-image {
+  width: 200px; 
+  height: auto;
+  border-radius: 2px;
+}
+.key1{
+  width:200px;
+  height: 90px;
+  background-color: #BFD2F8;
+}
+.key1 p {
+  position: relative;
+  top:0;
+  margin:0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1F2B6C;
+}
+
+.key1 h3 {
+  position: relative;
+  top:0;
+  margin:15px 0 5px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1F2B6C;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #1F2B6C;
+  
+}
+
+.profile-btn {
+  font-family: 'Work sans',sans-serif;
+  font-size: 15px;
+  height: 35px;
+  background: #1F2B6C;
+  color: #BFD2F8;
+  width: 200px;
+  border: none;
+  border-radius:  0 0 2px 2px ;
+  cursor: pointer;
+}
+
+.doctors-container .balls{
+  position: absolute;
+  margin: 280px 0 0  -50px;
+}
